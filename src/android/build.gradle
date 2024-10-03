@@ -5,11 +5,12 @@ repositories {
 }
 
 dependencies {
-    implementation ('com.sightcall.universal:universal-sdk:5.2.2')
+    implementation ('com.sightcall.universal:universal-sdk:7.4.0')
 }
 
 android {
       packagingOptions {
+        exclude "META-INF/versions/9/previous-compilation-data.bin"
         exclude "META-INF/MSFTSIG.SF"
         exclude "META-INF/MSFTSIG.RSA"
         exclude 'META-INF/DEPENDENCIES'
