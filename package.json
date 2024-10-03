@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thanaphonpra/cordova-roojai-sightcall-private"
+    "url": "git+https://github.com/roojai-ezekiel/cordova-roojai-sightcall-private"
   },
   "keywords": [
     "ecosystem:cordova",
